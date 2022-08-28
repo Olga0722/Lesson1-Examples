@@ -4,12 +4,13 @@
 782 -> 8
 918 -> 1 */
 
-Console.WriteLine("введите трехзначное число");
+Console.WriteLine("Введите трехзначное число");
 string num = Console.ReadLine();
 if (num.Length == 3)
 {
 Console.WriteLine("вторая цифра числа: " + num[1]);
 }
-if (num.Length< 3)
-{Console.WriteLine("вы ввели не трехзначное число");
-Console.WriteLine("введите трехзначное число");}
+if (num.Length < 3)
+{Console.WriteLine("Вы ввели не трехзначное число. Введите трехзначное число.");}
+if (num.Length > 3)
+{Console.WriteLine("Вы ввели не трехзначное число. Введите трехзначное число.");}
