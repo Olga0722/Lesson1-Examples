@@ -10,7 +10,8 @@ if (num.Length == 3)
 {
 Console.WriteLine("вторая цифра числа: " + num[1]);
 }
-if (num.Length < 3)
+if (num.Length < 3 || num.Length > 3)
 {Console.WriteLine("Вы ввели не трехзначное число. Введите трехзначное число.");}
-if (num.Length > 3)
-{Console.WriteLine("Вы ввели не трехзначное число. Введите трехзначное число.");}
+
+
+
